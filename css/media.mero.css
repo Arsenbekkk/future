@@ -1,0 +1,148 @@
+@media  (max-width: 1440px){
+
+}
+@media  (max-width: 1200px){}
+@media  (max-width: 1024px){
+    body{
+        background: slategray;
+    }
+    #header .header {
+        flex-wrap: wrap;
+        width: 95%;
+    }
+    .container {
+        width: 100%;
+    }
+    #aktuall .aktuall--dayopen1 {
+        width: 100%;
+    }
+    #aktuall .aktuall--blocks {
+        width: 100%;
+    }
+    #aktuall .aktuall--blocks__block1 {
+        width: 30%;
+        height: 250px;
+    }
+    #aktuall .aktuall--blocks__block2 {
+        width: 30%;
+        height: 250px;
+    }
+
+    #aktuall .aktuall--blocks__block3 {
+        width: 30%;
+        height: 250px;
+    }
+    #aktuall .aktuall--blocks2__block2 {
+        width: 30%;
+    }
+    #aktuall .aktuall--blocks2__block1 {
+        width: 65%;
+    }
+    #aktuall .aktuall--blocks2__block2--text p {
+        width: 99%;
+
+    }
+    #welcome .canhelp--blocks__block1 h4 {
+        width: 90%;
+    }
+    #welcome .canhelp--blocks {
+        width: 100%;
+}
+    #welcome .canhelp--blocks__block2 {
+        width: 44%;
+    }
+    #welcome .canhelp--blocks__block2--input1 {
+        width: 100%;
+    }
+    #welcome .canhelp--blocks__block2--inputs__input2 {
+        width: 49%;
+    }
+    #welcome .canhelp--blocks__block2--inputs__input3 {
+        width: 49%;
+    }
+    #welcome .canhelp--blocks__block1 img {
+        top: 10px;
+        left: -11px;
+    }
+    #aktuall .aktuall--blocks2__block1--di p {
+        width: 370px;
+    }
+}
+@media  (max-width: 992px){}
+@media  (max-width: 768px){
+    #aktuall .aktuall--blocks__block3 p {
+        width: 100%;
+    }
+    #aktuall .aktuall--blocks2__block1--di p {
+        width: 100%;
+    }
+    #aktuall .aktuall--blocks__block2--img h3 {
+        width: 100%;
+    }
+    #aktuall .aktuall--blocks__block2 p {
+        width: 100%;
+    }
+    #header .header {
+        flex-wrap: wrap;
+        width: 70%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .qqqqqq{
+        width: 200px;
+    }
+    #aktuall .aktuall--blocks__block1 {
+        width: 70%;
+        height: 250px;
+    }
+    #aktuall .aktuall--blocks__block2 {
+        width: 70%;
+        height: 250px;
+    }
+    #aktuall .aktuall--blocks__block3 {
+        width: 70%;
+        height: 250px;
+    }
+    #aktuall .aktuall--blocks2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    #aktuall .aktuall--blocks {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #aktuall .aktuall--blocks2__block2 {
+        width: 60%;
+    }
+    #welcome .canhelp--blocks {
+        width: 100%;
+        height: auto;
+    }
+    #footer .footer--blocks__block3{
+        display: none;
+    }
+    #footer .footer--blocks__block4{
+        display: none;
+    }
+    #footer .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #welcome .canhelp--blocks {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #aktuall .aktuall--dayopen1__text button {
+        background: transparent;
+        width: 35%;
+
+}
+}
+@media  (max-width: 480px){}

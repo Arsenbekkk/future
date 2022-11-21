@@ -1,0 +1,282 @@
+#aktuall{
+  .aktuall{
+    h6{
+      margin: 25px 0;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      color: #000000;
+    }
+    &--dayopen1{
+      margin: 30px 0 0 0;
+      &--25{
+        display: flex;
+        flex-direction: column;
+      }
+      padding: 20px 40px;
+      height: 160px;
+      width: 1180px;
+      border-radius: 20px;
+      background: #F7BC75;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &__text{
+        width: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &--day{
+          h3{
+            @include font;
+            width: 584.75px;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 26px;
+            color: #000000;
+          }
+          p{
+            @include font;
+            width: 300px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            color: #333333;
+          }
+        }
+        button{
+          background: transparent;
+          width: 222.45px;
+          height: 60px;
+          border: 2px solid #000000;
+          border-radius: 10px;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 26px;
+          color: #000000;
+        }
+
+      }
+
+    }
+    &--blocks{
+      margin: 15px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 1180px;
+      &__block1{
+        display: flex;
+        flex-direction: column;
+
+        padding: 30px 20px;
+        width: 380px;
+        height: 250px;
+        background: #C7EEFF;
+        border-radius: 20px;
+
+        p{
+          @include font;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 15px;
+          color: #4F4F4F;
+          width: 260px;
+        }
+        &--img{
+          margin: 15px 0;
+          display: flex;
+          align-items: center;
+          h3{
+            width: 274px;
+            height: 22px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            @include font;
+            margin-left: 19px;
+            color: #00093C;
+          }
+        }
+        h4{
+          margin-top: 20px;
+          @include font;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          color: #000000;
+        }
+
+      }
+      &__block2{
+        display: flex;
+        flex-direction: column;
+
+        padding: 30px 20px;
+        width: 380px;
+        height: 250px;
+        background: #FFE38E;
+        border-radius: 20px;
+
+        p{
+          @include font;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 15px;
+          color: #4F4F4F;
+          width: 260px;
+        }
+        &--img{
+          margin: 15px 0;
+          display: flex;
+          align-items: center;
+          h3{
+            width: 274px;
+            height: 22px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            @include font;
+            margin-left: 19px;
+            color: #00093C;
+          }
+        }
+        h4{
+          margin-top: 20px;
+          @include font;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          color: #000000;
+        }
+
+      }
+      &__block3{
+        display: flex;
+        flex-direction: column;
+
+        padding: 30px 20px;
+        width: 380px;
+        height: 250px;
+        background:  #DDDDFF;
+        border-radius: 20px;
+
+        p{
+          @include font;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 15px;
+          color: #4F4F4F;
+          width: 260px;
+        }
+        &--img{
+          margin: 15px 0;
+          display: flex;
+          align-items: center;
+          h3{
+            width: 274px;
+            height: 22px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            @include font;
+            margin-left: 19px;
+            color: #00093C;
+          }
+        }
+        h4{
+          margin-top: 20px;
+          @include font;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          color: #000000;
+        }
+
+      }
+
+    }
+    &--blocks2{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &__block1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 780px;
+        height: 250px;
+        background: #B8EFCF;
+        border-radius: 20px;
+        &--di{
+          //margin-left: 25px;
+          .di-p{
+            margin: 27px 0;
+            @include font;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            color: #4F4F4F;
+          }
+          h3{
+            @include font;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            color: #00093C;
+          }
+          p{
+            margin: 27px 0;
+            width: 400px;
+            @include font;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            color: #4F4F4F;
+          }
+          h2{
+            @include font;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            color: #000000;
+          }
+        }
+      }
+      &__block2{
+        &:hover{
+          //opacity: 1;
+          color: #00093C;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 380px;
+        height: 250px;
+        //opacity: 0.6;
+        border-radius: 20px;
+        background: url("../img/shutterstock_1709750299.jpg")no-repeat center/cover;
+        &--text{
+          h1{
+            margin-bottom: 35px;
+            @include font;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+          }
+          p{
+
+            width: 316px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            color: #FFFFFF;
+          }
+        }
+
+      }
+    }
+  }
+}
+

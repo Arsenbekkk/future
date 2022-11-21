@@ -1,0 +1,20 @@
+@mixin sb{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin align{
+  display: flex;
+  align-items: center;
+}
+
+@mixin font{
+  font-family: sans-serif,'Montserrat';
+}
